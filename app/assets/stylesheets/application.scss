@@ -1,0 +1,31 @@
+@import 'materialize';
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+a {
+  color: black;
+}
+#topnav {
+  height: 30px;
+}
+#topnav a {
+  color: #000;
+  text-align: right;
+}
+.zero-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.home-box {
+  height: 200px;
+}
+footer.page-footer {
+  background-color: #eee;
+}
